@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  background: #f4f4f4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* header */
+header {
+  background: #fff;
+  margin-bottom: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 222;
+}
+
+.container {
+  width: 1000px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.nav-left {
+  width: 250px;
+  height: inherit;
+  background: rgb(74, 170, 165);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-left a {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.nav-right ul {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  /* font-size: 18px; */
+}
+
+.nav-right ul li.li-brd {
+  border-right: 1px solid #ddd;
+  padding-right: 15px;
+}
+ /* main section */
+.main {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.content {
+  width: 70%;
+  background: #fff;
+  padding: 30px 20px;
+}
+
+.sidebar {
+  width: 30%;
+  background: #fff;
+  margin-left: 50px;
+  height: auto;
+}
+
+.content-title {
+  padding-bottom: 30px;
+  border-bottom: 2px solid #ddd;
+}
+
+.content-title h2 {
+  font-size: 32px;
+  color: rgb(74, 170, 165);
+}
+
+.content-body {
+  padding-top: 30px;
+}
+
+.content-body img {
+  width: 250px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.content-body p {
+  color: rgb(119, 119, 119);
+  font-size: 20px;
+  line-height: 30px;
+}
+.sidebar {
+  padding: 30px 30px;
+  height:fit-content;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar-title h2 {
+  font-size: 24px;
+}
+
+.sidebar ul {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.sidebar img {
+  width: 62px;
+  height: 62px;
+}
+/* footer */
+footer {
+  background: rgb(102, 102, 102);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 8px solid rgb(74, 170, 165);
+  color: #fff;
+}
