@@ -153,3 +153,39 @@ footer {
   border-top: 8px solid rgb(74, 170, 165);
   color: #fff;
 }
+@media only screen and (max-width:600px) {
+  .main-container
+  {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content , .sidebar
+  {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .content-title h2 ,  .nav-left a
+  {
+    font-size: 26px;
+  }
+  .content-body p {
+    font-size: 16px;
+  }
+  .content-body img {
+    width: 40%;
+  }
+  .sidebar
+  {
+    padding: 15px;
+    /* margin: 0 20px; */
+  }
+  .nav-left
+  {
+    width: 40%;
+  }
+  /* .nav-left a {
+    font-size: 26px;
+  } */
+}
